@@ -1,0 +1,32 @@
+.button {
+    display: inline-block !important;
+}
+
+.button button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid rgb(202, 202, 202);
+}
+
+button,
+.icon,
+.btnName {
+    transition: all 0.1s linear;
+}
+
+.button button:hover {
+    border: 1px solid #1677ff;
+}
+
+.button button:hover .icon {
+    color: #1677ff;
+}
+
+.button button:hover .btnName {
+    color: #1677ff;
+}

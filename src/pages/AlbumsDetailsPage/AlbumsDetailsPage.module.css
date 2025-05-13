@@ -1,0 +1,102 @@
+.content {
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.inner {
+    border-radius: 6px;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 24px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btnBack {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.btnBack:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.btnBack button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button .icon {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.headingTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.metaCard {
+    display: flex;
+    gap: 20px;
+}
+
+.metaCard .avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail .title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.detail a {
+    color: #1677ff;
+}
+
+.divider {
+    display: flex;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    margin: 24px 0;
+    background-color: rgb(231, 231, 231);
+    height: 1px;
+}
+
+.lstPhoto {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+.titleContent {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.itemImage {
+    width: 150px;
+}
+
+.itemImage img {
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}

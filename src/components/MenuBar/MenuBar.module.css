@@ -1,0 +1,104 @@
+.wrapper {
+    position: sticky;
+    top: 0;
+    width: 200px;
+    height: 100vh;
+    transition: all 0.1s linear;
+    z-index: 2;
+    flex-shrink: 0;
+}
+
+.wrapper.active{
+    width: 80px;
+}
+
+.logo {
+    height: 60px;
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    display: block;
+    width: 100px;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 5px 10px;
+    overflow: hidden;
+}
+
+.menuItem a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px 0;
+    padding-left: 24px;
+    padding-right: 15px;
+    font-weight: 100;
+    border-radius: 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: all 0.1s linear;
+}
+
+.menuItem a p {
+    font-size: 16px;
+    transition: all linear 0.1s;
+}
+
+.menuItem a p.active{
+    /* display: none; */
+    /* visibility: hidden; */
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.menuItem .icon {
+    width: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.activeLink {
+    background-color: rgba(22, 119, 255, 0.1);
+    color: white;
+    color: #1677ff;
+}
+
+.notActive:hover {
+    background-color: rgba(68, 68, 68, 0.1);
+}
+
+.btnToggle {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 48px;
+    z-index: 1;
+}
+
+.btnToggle button{
+    padding: 4px 15px;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnToggle .icon{
+    font-size: 16px;
+    color: #1677ff;
+}

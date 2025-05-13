@@ -1,0 +1,82 @@
+.wrapper {
+    position: relative;
+    display: flex;
+}
+
+.container {
+    position: relative;
+    grid-column: 2;
+    background-color: #F5F5F5;
+    min-height: 100vh;
+    flex: 1;
+
+}
+
+.wrapperPage {
+    padding: 24px;
+}
+
+.showMenuBar {
+    background-color: white;
+    display: block!important;
+    position: absolute!important;
+    top: 0;
+    left: 0;
+    z-index: 10!important;
+    transform: translateX(-100%);
+    transition: all 0.1s linear;
+}
+
+.menuBarActive{
+    transform: translateX(0);
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 5;
+    background-color: rgba(119, 119, 119, 0.315);
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .menuBar {
+        display: none;
+    }
+}
+
+.buttonMenu {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    z-index: 3;
+    border: 1px solid #bbbbbb;
+    border-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    display: inline-flex;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all 0.1s linear;
+}
+
+.buttonMenu:hover,
+.buttonMenu:hover .icon {
+    color: #4096ff;
+    border-color: #4096ff;
+}
+
+.buttonMenu>div {
+    padding: 10px 12px;
+    background-color: white;
+}
+
+.buttonMenu .icon {
+    font-size: 16px;
+    transition: all 0.1s linear;
+    color: #444444;
+}

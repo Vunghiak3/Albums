@@ -1,0 +1,84 @@
+.shimmerWrapper {
+    margin-top: 12px;
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+.avatar,
+.title,
+.description,
+.titleHeader,
+.albumTitle,
+.photoItem {
+    background: linear-gradient(90deg,
+            #f0f0f0 25%,
+            #e0e0e0 50%,
+            #f0f0f0 75%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.metaCard {
+    display: flex;
+    gap: 20px;
+}
+
+.albumTitle {
+    width: 30%;
+    height: 20px;
+}
+
+.photoGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.photoItem {
+    width: 80px;
+    height: 80px;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.title {
+    margin-bottom: 8px;
+    width: 120px;
+    height: 20px;
+}
+
+.description {
+    width: 100px;
+    height: 20px;
+}
+
+.titleHeader {
+    width: 100px;
+    height: 20px;
+    margin: 15px;
+}
+
+.divider {
+    display: flex;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    margin: 24px 0;
+    background-color: rgb(231, 231, 231);
+    height: 1px;
+}

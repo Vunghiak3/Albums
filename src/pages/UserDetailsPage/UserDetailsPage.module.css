@@ -1,0 +1,123 @@
+.content {
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 25px;
+}
+
+.inner {
+    border-radius: 6px;
+    border: 1px solid rgb(231, 231, 231);
+    padding: 24px;
+}
+
+.metaCard {
+    display: flex;
+    gap: 20px;
+}
+
+.metaCard .avatar {
+    width: 32px;
+    height: 32px;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.detail .title {
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+.detail a {
+    color: #1677ff;
+}
+
+.divider {
+    display: flex;
+    clear: both;
+    width: 100%;
+    min-width: 100%;
+    margin: 24px 0;
+    background-color: rgb(231, 231, 231);
+    height: 1px;
+}
+
+.titleHeader {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+table {
+    width: 100%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+thead,
+tr:not(:last-child) {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.tableTitle:not(:last-child)::before {
+    content: "";
+    width: 1px;
+    background-color: #f0f0f0;
+    position: absolute;
+    right: 0;
+    top: 15px;
+    bottom: 15px;
+}
+
+.tableTitle {
+    background-color: #FAFAFA;
+    text-align: left;
+    font-weight: 600;
+}
+
+.tableTitle,
+.tableContent {
+    padding: 16px;
+    position: relative;
+}
+
+.error {
+    color: red;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btnBack {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.btnBack:hover {
+    background-color: rgb(231, 231, 231);
+}
+
+.btnBack button {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+button .icon {
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.headingTitle {
+    font-size: 20px;
+    font-weight: 600;
+}
