@@ -86,4 +86,14 @@ yarn dev
 ✨ Ứng dụng sẽ chạy tại: [http://localhost:5173](http://localhost:5173)
 
 ## Kết quả chạy
-![Logo](ketquachay/Screenshot_2025-05-13_221058.png)
+### 1. Albums Page
+![Logo](ketquachay/Screenshot_2025-05-13_222016.png)
+
+### 2. Album Detail Page
+![Logo](ketquachay/Screenshot_2025-05-13_222036.png)
+
+### 3. Users Page
+![Logo](ketquachay/Screenshot_2025-05-13_222049.png)
+
+### 4. User Detail Page
+![Logo](ketquachay/Screenshot_2025-05-13_222100.png)
