@@ -51,6 +51,7 @@ function AlbumsDetailsPage() {
     };
 
     fetchData();
+    document.title = `#${albumId} Show Album | Refine`;
   }, [albumId]);
 
   const handleGoBack = () => {

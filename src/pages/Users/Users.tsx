@@ -24,6 +24,7 @@ function UsersPage() {
     };
 
     fetchUsers();
+    document.title = "Users | Refine";
   }, []);
 
   const renderTableContent = () => (

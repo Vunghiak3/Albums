@@ -44,6 +44,7 @@ function UserDetailsPage() {
     };
 
     fetchData();
+    document.title = `#${userId} Show User | Refine`;
   }, [userId]);
 
   const handleGoBack = () => {

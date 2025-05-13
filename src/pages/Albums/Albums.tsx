@@ -44,6 +44,7 @@ function AlbumsPage() {
     };
 
     fetchAlbums();
+    document.title = "Albums | Refine";
   }, []);
 
   const AlbumRow = ({ album }: { album: Album }) => (
