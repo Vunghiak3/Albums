@@ -51,8 +51,8 @@ src/
 ### 📥 1. Clone dự án
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/Vunghiak3/Albums.git
+cd Albums
 ```
 
 ### 📦 2. Cài đặt dependencies
