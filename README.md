@@ -3,19 +3,19 @@
 
 ---
 
-## 🛠️ Công nghệ sử dụng
+## 🛠️ Technologies Used
 
-- ⚛️ **React** – Thư viện xây dựng giao diện người dùng.
-- ⚡ **Vite** – Công cụ build siêu nhanh cho dự án React.
-- 🔀 **React Router DOM** – Điều hướng client-side.
-- 🎨 **CSS Modules** – Tách biệt và scoped CSS cho từng component.
-- 🌟 **FontAwesome Icons** – Thư viện biểu tượng phổ biến.
-- 🧠 **Tippy.js for React** – Tooltip dễ dùng và tùy biến.
-- 🖼️ **Atnd Image** – Tối ưu hóa hiển thị ảnh.
+- ⚛️ **React** – A library for building user interfaces.
+- ⚡ **Vite** – A super-fast build tool for React projects.
+- 🔀 **React Router DOM** – Client-side routing.
+- 🎨 **CSS Modules** – Scoped and modular CSS for each component.
+- 🌟 **FontAwesome Icons** – A popular icon library.
+- 🧠 **Tippy.js for React** – Easy-to-use and customizable tooltips.
+- 🖼️ **Atnd Image** – Optimized image rendering.
 
 ---
 
-## 📁 Cấu trúc thư mục chính
+## 📁 Main Folder Structure
 
 ```
 src/
@@ -46,46 +46,46 @@ src/
 
 ---
 
-## ⚙️ Cài đặt & Chạy ứng dụng
+## ⚙️ Setup & Run the Application
 
-### 📥 1. Clone dự án
+### 📥 1. Clone the Project
 
 ```bash
 git clone https://github.com/Vunghiak3/Albums.git
 cd Albums
 ```
 
-### 📦 2. Cài đặt dependencies
+### 📦 2. Install Dependencies
 
-Sử dụng **npm**:
+Using **npm**:
 
 ```bash
 npm install
 ```
 
-Hoặc **yarn**:
+Or **yarn**:
 
 ```bash
 yarn install
 ```
 
-### ▶️ 3. Chạy ứng dụng
+### ▶️ 3. Run the Application
 
-Sử dụng **npm**:
+Using **npm**:
 
 ```bash
 npm run dev
 ```
 
-Hoặc **yarn**:
+Or **yarn**:
 
 ```bash
 yarn dev
 ```
 
-✨ Ứng dụng sẽ chạy tại: [http://localhost:5173](http://localhost:5173)
+✨ The application will run at: [http://localhost:5173](http://localhost:5173)
 
-## Kết quả chạy
+## Run Results
 ### 1. Albums Page
 ![Logo](ketquachay/Screenshot_2025-05-13_222016.png)
 

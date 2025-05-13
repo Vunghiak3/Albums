@@ -1,0 +1,41 @@
+
+Approach & Tooling Explanation
+==============================
+
+This project is built using a modern front-end stack to ensure optimal performance, maintainability, and developer experience. Below is a breakdown of the main libraries and tools used, along with the reasons for their inclusion:
+
+Core Libraries & Tools
+----------------------
+- React  
+  React is used as the primary UI library for building reusable components and managing state efficiently. Its declarative nature makes it suitable for dynamic and responsive user interfaces.
+
+- Vite  
+  Vite is chosen as the build tool due to its lightning-fast development server and optimized production build performance. Unlike older tools like Webpack, Vite leverages native ES modules and offers instant hot module replacement (HMR).
+
+- TypeScript  
+  TypeScript adds static typing to JavaScript, allowing for better error checking, IDE support, and code maintainability, especially in larger codebases.
+
+Routing & Navigation
+--------------------
+- React Router DOM  
+  This library is used to handle client-side routing. It enables the creation of multipage navigation experiences without page reloads, helping maintain a smooth single-page application (SPA) behavior.
+
+Styling & UI Enhancements
+--------------------------
+- CSS Modules  
+  CSS Modules help scope styles to individual components, avoiding naming conflicts and keeping styles maintainable. This modular approach improves scalability.
+
+- FontAwesome Icons  
+  A widely used icon library, FontAwesome provides a large set of customizable icons that enhance UI clarity and aesthetics.
+
+- Tippy.js for React  
+  Tippy.js is used for tooltips. It's lightweight, customizable, and easy to integrate into React components to provide user-friendly interactions.
+
+Image Handling
+--------------
+- Atnd Image  
+  This utility is used to optimize image rendering, likely for lazy-loading or smooth fallback handling. This improves page load performance and user experience, especially in media-heavy pages like album listings.
+
+Folder Structure
+----------------
+A well-organized `src/` folder separates concerns into `components`, `pages`, `routes`, `services`, and `types`, which aligns with scalable project architecture best practices.
