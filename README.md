@@ -84,3 +84,6 @@ yarn dev
 ```
 
 ✨ Ứng dụng sẽ chạy tại: [http://localhost:5173](http://localhost:5173)
+
+## Kết quả chạy
+![Logo](ketquachay/Screenshot_2025-05-13_221058.png)
